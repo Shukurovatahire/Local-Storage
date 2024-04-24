@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <div class="generalBox">
+
+      <div id="box">
+        <h1>To Do List</h1>
+        <form id="form">
+          <span class="inputsContainer">
+            <label id="lbl"></label>
+            <input id="input" type="text" name="taskName" placeholder="Enter task name" />
+          </span>
+          <span class="inputsContainer">
+            <label id="lbl"></label>
+            <textarea id="tArea" cols="" rows="" name="taskDesc" placeholder="Text description"></textarea>
+          </span>
+          <label class="newlabel" >
+            <button id="btnAdd" type="submit">Add</button>
+            <button id="btnSave" type="button" style="display: none;">Save</button>
+            <button id="btnCancel" type="button" style="display: none;">Cancel</button>
+          </label>
+        </form>
+      </div>
+      
+      <div id="box2">
+        <p>Task list:</p>
+      </div>
+      
+      
+      <button id="btnFilter">Filter</button>
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
